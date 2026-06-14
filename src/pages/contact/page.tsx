@@ -55,13 +55,21 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
-                      Adres
-                    </h3>
-                    <p className="text-sm text-foreground-600 leading-relaxed">
-                      Yıldırım Beyazıt Mahallesi<br />
-                      Özkul Çolak Caddesi No:43<br />
-                      Payas / Hatay, Türkiye
-                    </p>
+  Adreslerimiz
+</h3>
+<p className="text-sm text-foreground-600 leading-relaxed">
+  <strong>Merkez Ofis</strong><br />
+  Yıldırım Beyazıt Mahallesi<br />
+  Özkul Çolak Caddesi No:43<br />
+  Payas / Hatay, Türkiye
+
+  <br /><br />
+
+  <strong>İmalat Atölyesi</strong><br />
+  Yıldırım Beyazıt Mahallesi<br />
+  Gazi Sokak No:3 3/10<br />
+  Payas / Hatay, Türkiye
+</p>
                   </div>
                 </div>
 
