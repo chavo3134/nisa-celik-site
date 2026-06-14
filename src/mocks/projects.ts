@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Fabrika Çatı Konstrüksiyonu",
+    location: "Payas / Hatay",
+    description: "Büyük ölçekli endüstriyel tesis için çelik çatı konstrüksiyonu ve taşıyıcı sistem montajı. 3.500 m² kapalı alan.",
+    image: "https://readdy.ai/api/search-image?query=Industrial%20steel%20roof%20construction%20site%20factory%20building%20metal%20framework%20%20beams%20trusses%20large%20scale%20manufacturing%20facility%20overhead%20view%20construction%20phase%20realistic%20photography%20grey%20sky%20industrial%20area&width=800&height=600&seq=proj-1&orientation=landscape",
+  },
+  {
+    id: 2,
+    title: "Prefabrik Depo Yapısı",
+    location: "Erzin / Hatay",
+    description: "Hızlı kurulum prefabrik çelik depo binası. 1.200 m² kullanım alanı, tamamlanma süresi 45 gün.",
+    image: "https://readdy.ai/api/search-image?query=Prefababricated%20steel%20warehouse%20building%20completed%20structure%20large%20industrial%20storage%20facility%20metal%20cladding%20grey%20steel%20frame%20modern%20industrial%20architecture%20realistic%20exterior%20photography%20concrete%20foundation&width=800&height=600&seq=proj-2&orientation=landscape",
+  },
+  {
+    id: 3,
+    title: "Metal Döküm Atölyesi Kurulumu",
+    location: "Dörtyol / Hatay",
+    description: "Endüstriyel metal döküm atölyesi için özel çelik platformlar, vinç traversleri ve taşıyıcı kolonlar.",
+    image: "https://readdy.ai/api/search-image?query=Industrial%20metal%20foundry%20workshop%20interior%20steel%20platforms%20crane%20gantry%20heavy%20duty%20metal%20%20beams%20industrial%20machinery%20casting%20facility%20realistic%20photography%20concrete%20floors%20overhead%20crane%20system&width=800&height=600&seq=proj-3&orientation=landscape",
+  },
+  {
+    id: 4,
+    title: "Dış Cephe Çelik İskeleti",
+    location: "İskenderun / Hatay",
+    description: "Modern ticari bina için dış cephe çelik iskeleti ve kompozit panel kaplama sistemi.",
+    image: "https://readdy.ai/api/search-image?query=Modern%20commercial%20building%20steel%20frame%20exterior%20curtain%20wall%20construction%20metal%20cladding%20glass%20panels%20steel%20structure%20frame%20urban%20construction%20site%20realistic%20photography%20modern%20architecture%20steel%20beams&width=800&height=600&seq=proj-4&orientation=landscape",
+  },
+  {
+    id: 5,
+    title: "Çelik Köprü Konstrüksiyonu",
+    location: "Payas / Hatay",
+    description: "Yaya ve hafif taşıt köprüsü için çelik kiriş konstrüksiyonu. 45 metre açıklık, galvanizli çelik profiller.",
+    image: "https://readdy.ai/api/search-image?query=Steel%20bridge%20construction%20truss%20structure%20metal%20framework%20industrial%20bridge%20beam%20assembly%20%20galvanised%20steel%20profiles%20river%20or%20road%20underneath%20construction%20phase%20realistic%20photography%20engineering%20project&width=800&height=600&seq=proj-5&orientation=landscape",
+  },
+  {
+    id: 6,
+    title: "Endüstriyel Çelik Platform",
+    location: "Erzin / Hatay",
+    description: "İki katlı endüstriyel üretim platformu. 800 m² üretim alanı, özel çelik merdivenler ve korkuluk sistemleri.",
+    image: "https://readdy.ai/api/search-image?query=Two%20level%20industrial%20steel%20platform%20mezzanine%20production%20floor%20metal%20staircase%20handrail%20system%20heavy%20duty%20industrial%20steel%20structure%20factory%20interior%20realistic%20photography%20concrete%20and%20steel%20combination&width=800&height=600&seq=proj-6&orientation=landscape",
+  },
+  {
+    id: 7,
+    title: "Tarımsal Çelik Sera Yapısı",
+    location: "Dörtyol / Hatay",
+    description: "Büyük ölçekli tarımsal sera için galvanizli çelik konstrüksiyon. 2.500 m² sera alanı, zirai üretim için optimize edilmiş.",
+    image: "https://readdy.ai/api/search-image?query=Large%20agricultural%20greenhouse%20steel%20structure%20galvanised%20metal%20frame%20commercial%20glass%20or%20plastic%20roof%20farming%20facility%20industrial%20agriculture%20realistic%20exterior%20photography%20open%20field%20setting%20organized%20rows&width=800&height=600&seq=proj-7&orientation=landscape",
+  },
+  {
+    id: 8,
+    title: "Çelik Hangar Yapısı",
+    location: "İskenderun / Hatay",
+    description: "Havaalanı yakınında hafif uçak bakım hangarı. Geniş açıklıklı çelik truss sistemi, 1.800 m².",
+    image: "https://readdy.ai/api/search-image?query=Aircraft%20maintenance%20hangar%20steel%20structure%20large%20span%20truss%20system%20metal%20building%20wide%20open%20interior%20industrial%20aviation%20facility%20realistic%20photography%20concrete%20apron%20exterior%20view%20airport%20setting&width=800&height=600&seq=proj-8&orientation=landscape",
+  },
+];
