@@ -149,7 +149,7 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="relative rounded-2xl overflow-hidden bg-background-200 aspect-[4/3] lg:aspect-auto lg:h-full min-h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.1!2d36.1136!3d36.7569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDQ1JzI0LjgiTiAzNsKwMDYnNDkuMCJF!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.67467623784273!2d36.216055176219704!3d36.759558907314656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152f4177652da9fb%3A0x69ba2959f876b4d!2zWcSxbGTEsXLEsW0gQmV5YXrEsXQsIMOWemt1bCDDh29sYWsgQ2QuIE5vOjQzLCAzMTkwMCBQYXlhcy9IYXRheQ!5e1!3m2!1str!2str!4v1781450328127!5m2!1str!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: "400px" }}
