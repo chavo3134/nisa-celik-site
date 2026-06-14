@@ -13,6 +13,7 @@ export default function Contact() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
         </div>
+
         <div className="relative z-10 text-center px-4">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -22,6 +23,7 @@ export default function Contact() {
           >
             İletişim
           </motion.h1>
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -43,83 +45,111 @@ export default function Contact() {
                 <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground-900 mb-4">
                   Bize Ulaşın
                 </h2>
+
                 <p className="text-lg text-foreground-600 leading-relaxed">
                   Çelik konstrüksiyon, prefabrik yapılar, metal döküm ve endüstriyel çelik işleri için profesyonel destek alın. Hatay ve çevresindeki tüm ilçelere hizmet vermekteyiz.
                 </p>
               </div>
 
               <div className="space-y-5">
+                {/* Address */}
                 <div className="flex items-start gap-4 p-5 bg-background-100 rounded-xl">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary-100 shrink-0">
                     <i className="ri-map-pin-line text-2xl text-primary-700" />
                   </div>
+
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
-  Adreslerimiz
-</h3>
-<p className="text-sm text-foreground-600 leading-relaxed">
-  <strong>Merkez Ofis</strong><br />
-  Yıldırım Beyazıt Mahallesi<br />
-  Özkul Çolak Caddesi No:43<br />
-  Payas / Hatay, Türkiye
+                      Adreslerimiz
+                    </h3>
 
-  <br /><br />
-
-  <strong>İmalat Atölyesi</strong><br />
-  Yıldırım Beyazıt Mahallesi<br />
-  Gazi Sokak No:3 3/10<br />
-  Payas / Hatay, Türkiye
-</p>
+                    <p className="text-sm text-foreground-600 leading-relaxed">
+                      <strong>Merkez Ofis</strong>
+                      <br />
+                      Yıldırım Beyazıt Mahallesi
+                      <br />
+                      Özkul Çolak Caddesi No:43
+                      <br />
+                      Payas / Hatay, Türkiye
+                      <br />
+                      <br />
+                      <strong>İmalat Atölyesi</strong>
+                      <br />
+                      Yıldırım Beyazıt Mahallesi
+                      <br />
+                      Gazi Sokak No:3 3/10
+                      <br />
+                      Payas / Hatay, Türkiye
+                    </p>
                   </div>
                 </div>
 
+                {/* Phone */}
                 <div className="flex items-start gap-4 p-5 bg-background-100 rounded-xl">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary-100 shrink-0">
                     <i className="ri-phone-line text-2xl text-primary-700" />
                   </div>
+
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
                       Telefon
                     </h3>
-                    <a href="tel:+905446414072" className="text-sm text-foreground-600 hover:text-primary-700 transition-colors">
+
+                    <a
+                      href="tel:+905446414072"
+                      className="text-sm text-foreground-600 hover:text-primary-700 transition-colors"
+                    >
                       +90 544 641 40 72
                     </a>
                   </div>
                 </div>
 
+                {/* WhatsApp */}
                 <div className="flex items-start gap-4 p-5 bg-background-100 rounded-xl">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-accent-100 shrink-0">
                     <i className="ri-whatsapp-line text-2xl text-accent-700" />
                   </div>
+
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
                       WhatsApp
                     </h3>
-                    <a href="https://wa.me/905446414072" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground-600 hover:text-accent-700 transition-colors">
+
+                    <a
+                      href="https://wa.me/905446414072"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-foreground-600 hover:text-accent-700 transition-colors"
+                    >
                       +90 544 641 40 72
                     </a>
+
                     <p className="text-xs text-foreground-500 mt-1">
                       7/24 WhatsApp üzerinden ulaşabilirsiniz
                     </p>
                   </div>
                 </div>
 
+                {/* Email */}
                 <div className="flex items-start gap-4 p-5 bg-background-100 rounded-xl">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary-100 shrink-0">
-                    <i className="ri-time-line text-2xl text-primary-700" />
+                    <i className="ri-mail-line text-2xl text-primary-700" />
                   </div>
+
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
-                      Çalışma Saatleri
+                      E-Posta
                     </h3>
-                    <p className="text-sm text-foreground-600">
-                      Pazartesi - Cuma: 08:00 - 18:00
-                    </p>
-                    <p className="text-sm text-foreground-600">
-                      Cumartesi: 08:00 - 14:00
-                    </p>
-                    <p className="text-sm text-foreground-600">
-                      Pazar: Kapalı
+
+                    <a
+                      href="mailto:info@nisacelikyapi.com.tr"
+                      className="text-sm text-foreground-600 hover:text-primary-700 transition-colors"
+                    >
+                      info@nisacelikyapi.com.tr
+                    </a>
+
+                    <p className="text-xs text-foreground-500 mt-1">
+                      Teklif ve bilgi talepleriniz için e-posta gönderebilirsiniz
                     </p>
                   </div>
                 </div>
@@ -133,6 +163,7 @@ export default function Contact() {
                   <i className="ri-phone-line" />
                   Hemen Ara
                 </a>
+
                 <a
                   href="https://wa.me/905446414072"
                   target="_blank"
@@ -172,6 +203,7 @@ export default function Contact() {
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground-900 mb-4">
               Hizmet Verdiğimiz Bölgeler
             </h2>
+
             <p className="text-lg text-foreground-600 max-w-2xl mx-auto">
               Payas, Erzin, Dörtyol, İskenderun ve Hatay çevresindeki tüm ilçelere hizmet vermekteyiz
             </p>
@@ -185,13 +217,18 @@ export default function Contact() {
               { name: "İskenderun", desc: "Hatay" },
               { name: "Hatay Çevresi", desc: "Tüm İlçeler" },
             ].map((area, i) => (
-              <div key={i} className="text-center p-6 bg-background-50 rounded-xl hover:shadow-lg transition-all duration-300">
+              <div
+                key={i}
+                className="text-center p-6 bg-background-50 rounded-xl hover:shadow-lg transition-all duration-300"
+              >
                 <div className="w-14 h-14 flex items-center justify-center rounded-full bg-primary-100 mx-auto mb-4">
                   <i className="ri-map-pin-line text-2xl text-primary-700" />
                 </div>
+
                 <h3 className="font-heading text-lg font-semibold text-foreground-900 mb-1">
                   {area.name}
                 </h3>
+
                 <p className="text-sm text-foreground-500">
                   {area.desc}
                 </p>
